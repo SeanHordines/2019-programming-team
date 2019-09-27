@@ -1,4 +1,6 @@
-n = int(input()) + 1
+import sys
+
+n = int(sys.argv[1])
 
 def findPaths(n):
     total = 0
